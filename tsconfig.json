@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esNext",
+        "target": "esNext",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "baseUrl": ".",
+        "rootDir": "."
+    },
+    "rules": {
+        "no-async-without-await": true,
+        "no-unused-expression": true,
+        "no-floating-promises": true,
+        "no-promise-as-boolean": true
+    }
+}
